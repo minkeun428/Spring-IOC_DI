@@ -9,7 +9,7 @@ public class Driver {
 		ApplicationContext context = new ClassPathXmlApplicationContext("expert004/expert004.xml");
 		
 		
-		//종합 쇼핑몰에서 Car와 Tire를 구매한다.
+		//종합 쇼핑몰에서 Car를 구매한다.
 		Car car = context.getBean("car", Car.class);
 		
 		//Tire tire = context.getBean("tire", Tire.class);
